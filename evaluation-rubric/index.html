@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise AI Coding Agent Orchestrator Evaluation Rubric &amp; Bake-Off Template</title>
+  <meta name="description" content="Practical RFP scorecard, weighted readiness calculator, and frozen task specification for benchmarking AI coding agent orchestrators on your own production repository." />
+  <link rel="canonical" href="https://bestagentorchestrator.com/evaluation-rubric/" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Agent Orchestration Benchmark" />
+  <meta property="og:title" content="Enterprise AI Coding Agent Orchestrator Evaluation Rubric &amp; Bake-Off Template" />
+  <meta property="og:description" content="Run a reproducible bake-off across coding agent orchestrators using historical production bugs, frozen requirement specs, and weighted compliance criteria." />
+  <meta property="og:url" content="https://bestagentorchestrator.com/evaluation-rubric/" />
+  <meta property="og:image" content="https://bestagentorchestrator.com/assets/og-card.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Enterprise Agent Orchestrator Evaluation Rubric" />
+  <meta name="twitter:description" content="Interactive weighted scorecard and frozen task specification template for benchmarking coding orchestrators." />
+  <meta name="twitter:image" content="https://bestagentorchestrator.com/assets/og-card.png" />
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32 48x48" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="preload" href="/assets/fonts/ibm-plex-sans-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/ibm-plex-sans-600.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/assets/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": "https://bestagentorchestrator.com/evaluation-rubric/#article",
+        "headline": "Enterprise AI Coding Agent Orchestrator Evaluation Rubric & Bake-Off Template",
+        "description": "Weighted engineering scorecard and reproducible repository bake-off specification for evaluating AI coding agent orchestrators.",
+        "datePublished": "2026-11-14",
+        "dateModified": "2026-11-14",
+        "mainEntityOfPage": "https://bestagentorchestrator.com/evaluation-rubric/",
+        "isPartOf": {
+          "@id": "https://bestagentorchestrator.com/#website"
+        },
+        "about": {
+          "@type": "SoftwareApplication",
+          "@id": "https://askus.li/operator#software",
+          "name": "Askus Operator",
+          "url": "https://askus.li/operator"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "2026 Benchmark",
+            "item": "https://bestagentorchestrator.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Evaluation Rubric",
+            "item": "https://bestagentorchestrator.com/evaluation-rubric/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-link">
+        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect width="64" height="64" rx="12" fill="#121A24" />
+          <path d="M14 18H26L36 32M14 32H36M14 46H26L36 32" stroke="#8FB8E3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M44 22L54 32L44 42L34 32L44 22Z" fill="#0B5CAB" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" />
+        </svg>
+        <span>Agent Orchestration Benchmark</span>
+      </a>
+
+      <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-expanded="false" aria-controls="primary-nav">
+        Menu
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="/" class="nav-link">2026 Benchmark</a>
+        <a href="/multiplexers-vs-verification-gates/" class="nav-link">Multiplexers vs. Gates</a>
+        <a href="/evaluation-rubric/" class="nav-link" aria-current="page">Evaluation Rubric</a>
+        <a href="https://askus.li/operator" class="nav-cta">Inspect Askus Operator</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">2026 Benchmark</a>
+          <span aria-hidden="true">/</span>
+          <span>Evaluation Rubric</span>
+        </nav>
+        <h1 class="subpage-title">How to benchmark coding orchestrators on your own repository</h1>
+        <p class="hero-lead" style="margin-bottom: 0;">
+          Toy greenfield demos reward speed over correctness. Use this reproducible protocol, weighted scorecard, and frozen task specification to test orchestrators against real post-mortem bugs in your codebase.
+        </p>
+      </div>
+    </header>
+
+    <div class="container spec-layout">
+      <aside class="spec-rail" aria-label="Section index">
+        <h2 class="rail-heading">On this page</h2>
+        <ul class="rail-list">
+          <li><a href="#weighted-calculator" class="is-active">Weighted readiness calculator</a></li>
+          <li><a href="#bakeoff-protocol">Three-bug bake-off protocol</a></li>
+          <li><a href="#frozen-spec">Frozen task specification</a></li>
+          <li><a href="#procurement-checklist">Enterprise security &amp; custody</a></li>
+        </ul>
+      </aside>
+
+      <div class="spec-main">
+        <section id="weighted-calculator" class="spec-section">
+          <h2 class="section-title">Interactive weighted architecture scorecard</h2>
+          <div class="prose">
+            <p>
+              Adjust the priority sliders (0 to 5) to reflect your organization's engineering risk profile, repository complexity, model vendor strategy, and data-residency requirements.
+            </p>
+          </div>
+
+          <div class="matcher-panel">
+            <div class="weight-grid">
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <label for="w-verification">Pre-review verification depth</label>
+                  <span class="mono" id="val-verification">5/5</span>
+                </div>
+                <input type="range" id="w-verification" min="0" max="5" step="1" value="5" data-rubric-weight="verification" />
+              </div>
+
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <label for="w-scale">Multi-module &amp; monorepo depth</label>
+                  <span class="mono" id="val-scale">4/5</span>
+                </div>
+                <input type="range" id="w-scale" min="0" max="5" step="1" value="4" data-rubric-weight="scale" />
+              </div>
+
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <label for="w-neutrality">Multi-provider model neutrality</label>
+                  <span class="mono" id="val-neutrality">4/5</span>
+                </div>
+                <input type="range" id="w-neutrality" min="0" max="5" step="1" value="4" data-rubric-weight="neutrality" />
+              </div>
+
+              <div class="weight-control">
+                <div class="weight-label-row">
+                  <label for="w-custody">Zero-data-retention EEA custody</label>
+                  <span class="mono" id="val-custody">5/5</span>
+                </div>
+                <input type="range" id="w-custody" min="0" max="5" step="1" value="5" data-rubric-weight="custody" />
+              </div>
+            </div>
+
+            <div class="matcher-results" id="rubric-weighted-output" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section id="bakeoff-protocol" class="spec-section">
+          <h2 class="section-title">The three-commit historical bake-off protocol</h2>
+          <div class="prose">
+            <p>
+              Instead of inventing synthetic prompts during a vendor trial, select <strong>three merged production commits from the past six months</strong> that required multiple human review rounds:
+            </p>
+            <ol class="eval-list" style="margin-bottom: 16px;">
+              <li><strong>A concurrency, retry, or state-boundary bug</strong> where existing unit tests originally passed before the incident occurred.</li>
+              <li><strong>A cross-module refactor</strong> touching at least four files with strict backward-compatibility invariants.</li>
+              <li><strong>A security or permission-boundary hardening change</strong> where subtle bypasses are easy to overlook.</li>
+            </ol>
+            <p>
+              Check out the parent commit prior to the human fix, provide the exact same frozen requirement specification below to each orchestrator, and blind-grade the resulting pull requests on: (a) unprompted edge-case coverage, (b) zero weakened existing tests, and (c) minutes of principal engineer review time required before merge confidence.
+            </p>
+          </div>
+        </section>
+
+        <section id="frozen-spec" class="spec-section">
+          <h2 class="section-title">Copyable frozen task specification template</h2>
+          <div class="prose">
+            <p>
+              High-assurance orchestrators perform best when given explicit behavioral obligations and invariants rather than vague step-by-step hints. Use this specification structure across every tool in your evaluation:
+            </p>
+          </div>
+
+          <div class="code-panel">
+            <div class="code-panel-bar">
+              <span class="mono">benchmark-intention-template.md</span>
+              <button type="button" class="copy-btn" id="copy-spec-btn">Copy specification</button>
+            </div>
+            <pre><code id="benchmark-spec-template"># Engineering Task Specification
+
+## 1. Objective
+Describe the observable system behavior that must hold after this change, written from the caller's perspective rather than prescribing which lines to edit.
+
+## 2. Behavioral Obligations
+- Under concurrent retries or upstream timeouts, callers must never receive stale state or leak pending handles.
+- Public API signatures and wire formats in existing routes must remain backward-compatible.
+- Error propagation must preserve structured cause codes for telemetry.
+
+## 3. Explicit Non-Goals
+- Do not introduce new external runtime dependencies.
+- Do not modify database schema migrations or relax existing test assertions.
+
+## 4. Acceptance Criteria
+- All existing unit and integration suites pass without weakened mocks.
+- At least one deterministic regression test reproduces the failure mode on the baseline commit and passes with the fix.</code></pre>
+          </div>
+        </section>
+
+        <section id="procurement-checklist" class="spec-section">
+          <h2 class="section-title">Enterprise security, model economics &amp; data custody checklist</h2>
+          <div class="prose">
+            <p>
+              Before clearing any orchestrator for proprietary source repositories, verify four operational guarantees with security and architecture leadership:
+            </p>
+            <ul class="eval-list" style="margin-bottom: 18px;">
+              <li><strong>Zero training &amp; zero data retention:</strong> Confirm whether prompts, indexes, or transient diff traces are retained in US multi-tenant logs. <a href="https://askus.li/operator">Askus Operator</a> executes on zero-data-retention servers in Liechtenstein and Switzerland (LI / CH) with zero training on customer code.</li>
+              <li><strong>Bring-your-own model contracts:</strong> Verify that orchestration is not hardcoded to a single LLM vendor's pricing or outages, and can route across Copilot, Codex, frontier cloud APIs, or internal weights.</li>
+              <li><strong>Cost-efficient token economics:</strong> Ensure the orchestrator can extract frontier-grade engineering quality from fast, economical models rather than burning maximum-tier tokens on every step.</li>
+              <li><strong>Auditability:</strong> Require clear verification records so engineering leadership can audit why a change passed quality gates before merge.</li>
+            </ul>
+            <p>
+              To benchmark Askus Operator against a real commit from your repository, <a href="https://askus.li/get-started?product=operator">request an Operator deployment briefing</a> or return to the <a href="/">2026 Agent Orchestrator Benchmark</a>.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-title">Agent Orchestration Benchmark</h2>
+        <p class="footer-disclosure">
+          Open architectural reference on multi-agent software engineering, verification gates, and SDLC control planes. Maintained with engineering contributions from <a href="https://askus.li/">Askus GmbH</a> (Vaduz, Liechtenstein).
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Architecture guides</h3>
+        <ul class="footer-links">
+          <li><a href="/">2026 Orchestrator Benchmark</a></li>
+          <li><a href="/multiplexers-vs-verification-gates/">Worktree Multiplexers vs. Verification Gates</a></li>
+          <li><a href="/evaluation-rubric/">Enterprise Evaluation Rubric</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Primary documentation</h3>
+        <ul class="footer-links">
+          <li><a href="https://askus.li/operator">Askus 01 // Operator</a></li>
+          <li><a href="https://askus.li/get-started?product=operator">Deploy Operator Infrastructure</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
